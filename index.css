@@ -1,35 +1,173 @@
-body, html{
+body{
+    background: url("assets/bg.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+
 }
 .wrapper{
-    margin: 0;
-    padding: 0;
     display: grid;
-    grid-template-columns: 4vw 45vw 45vw 4vw;
-    grid-template-rows: 20vh 20vh 20vh 20vh;
-    grid-column-gap: 0.4vw;
-    grid-row-gap: 1vh;
+    grid-template-columns: 13vw 24vw 24vw 24vw 13vw;
+    grid-template-rows: repeat(10, minmax(24vh, auto));
+    grid-row-gap: 0.5vh;
+    padding-top: 26vh;
+    font-family: "3ds";
+}
+.mission{
+    grid-column: 2/5;
+    grid-row: 1;
+    box-shadow: 3px 9px 5px rgba(105, 105, 105, 0.34);
+    z-index: 100;
+    transform: scale(1.05);
+    transition-duration: 1s;
+    border-radius: 20px;
+    background: #239570;
+    color: #f8cc38;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission_header{
+    font-size: 6vh;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+}
+.mission div section{
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid #f8cc38;
+    padding: 1vh;
+}
+.mission_description{
+    grid-column: 2/5;
+    box-shadow: 3px 3px 1.2px rgba(105, 105, 105, 0.34);
+    grid-row: 2;
+    z-index: 10;
+    transform: scale(1);
+    transition-duration: 1s;
+    background: #ea503c;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(105, 105, 105, 0.34);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2vh;
 }
 .one{
-    grid-column: 2/4;
-    grid-row: 1;
-    background-color: #239570;
+    grid-column: 2/3;
+    grid-row: 4;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    z-index: 100;
+    transform: scale(1.05);
+    transition-duration: 1s;
+    background-image: url("assets/0990d656394563.59ad49203368a.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
 }
 .two{
-    grid-column: 2/3;
-    grid-row: 2;
-    background-color: #239570;
+    grid-column: 3/4;
+    grid-row: 4;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    z-index: 10;
+    transform: scale(1);
+    transition-duration: 1s;
+    background: #239570;
+    color: #f8cc38;
+    text-shadow: 1px 1px 2px rgba(105, 105, 105, 0.34);
+    font-family: "3ds";
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
 }
 .three{
-    grid-column: 3/4;
-    grid-row: 3;
-    background-color: #239570;
+    grid-column: 4/5;
+    grid-row: 4;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    background-color: white;
+    z-index: 90;
+    transform: scale(1.04);
+    transition-duration: 1s;
+    background-image: url("assets/b7fd2720404057.562eabda6e6b8.jpg");
+    background-size: cover;
+    background-position: right;
+    border-radius: 5px;
 }
 .four{
     grid-column: 2/3;
-    grid-row: 4;
+    grid-row: 5;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    z-index: 20;
+    transform: scale(1);
+    transition-duration: 1s;
+    background: #239570;
+    color: #f8cc38;
+    text-shadow: 1px 1px 2px rgba(105, 105, 105, 0.34);
+    font-family: "3ds";
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+.five{
+    grid-column: 3/4;
+    grid-row: 5;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    background-color: white;
+    z-index: 80;
+    transform: scale(1.05);
+    transition-duration: 1s;
+    background-image: url("assets/wallpapersden.com_poly-lakeside-minimal_3840x2160.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.six{
+    grid-column: 4/5;
+    grid-row: 5;
+    box-shadow: 3px 3px 5px rgba(105, 105, 105, 0.34);
+    background: #239570;
+    z-index: 0;
+    transform: scale(1);
+    transition-duration: 1s;
+    color: #f8cc38;
+    text-shadow: 1px 1px 2px rgba(105, 105, 105, 0.34);
+    font-family: "3ds";
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover{
+    z-index: 1000;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition-duration: 0.5s;
+}
+button{
+    background-color: #f8cc38;
+    padding: 2vh 2vw;
+    box-shadow: none;
+    border: none;
+    color: #239570;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    border-radius: 3px;
+}
+button:hover{
     background-color: #239570;
+    padding: 2vh 2vw;
+    box-shadow: none;
+    color: #f8cc38;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    border: 2px solid #f8cc38;
+}
+button:focus{
+    outline: none;
+    transition-duration: 0.5s;
+    background-color: #f8cc38;
+    color: #239570;
 }
