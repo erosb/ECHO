@@ -6,13 +6,12 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-
+    overflow-x: hidden;
 }
 .wrapper{
     display: grid;
     grid-template-columns: 13vw 24vw 24vw 24vw 13vw;
-    grid-template-rows: repeat(10, minmax(24vh, auto));
-    grid-row-gap: 0.5vh;
+    grid-template-rows: repeat(5, minmax(24vh, auto)) 24vh 10vh 15vh 20vh;
     padding-top: 26vh;
     font-family: "3ds";
 }
@@ -170,4 +169,101 @@ button:focus{
     transition-duration: 0.5s;
     background-color: #f8cc38;
     color: #239570;
+}
+.footer-sub{
+    grid-column: 1/7;
+    grid-row: 7;
+    text-align: center;
+    background-color: #239570;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 9px rgba(80, 80, 80, 0.5);
+    z-index: 1;
+}
+button[type="submit"]{
+    padding: 1vh 2vw;
+    margin-left: 1vw;
+    border: none;
+    background: #f8cc38;
+    color: #239570;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+}
+button[type="submit"]:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border: 2px solid #f8cc38;
+    background-color: #239570;
+    color: #f8cc38;
+}
+button[type="submit"]:focus{
+    outline: none;
+    transition-duration: 0.5s;
+    background-color: #f8cc38;
+    color: #239570;
+}
+input[type="email"]{
+    background-color: #239570;
+    border: none;
+    color: #f8cc38;
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    width: 40vw;
+    font-size: x-large;
+}
+input[type="email"]:hover::placeholder{
+    color: rgba(248, 204, 56, 0.25);
+}
+input[type="email"]:focus{
+    outline: none;
+}
+input[type="email"]::placeholder{
+    color: rgba(248, 204, 56, 0.5);
+    font-weight: bold;
+}
+
+.footer-quote{
+    grid-column: 1/7;
+    grid-row: 8;
+    text-align: center;
+    background-color: #ea503c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(88, 88, 88, 0.5);
+    z-index: 0;
+    transition-duration: 0.2s;
+}
+.footer-quote:hover{
+    z-index: 3;
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+    box-shadow: 8px 4px 9px rgba(80, 80, 80, 0.5);
+}
+.footer-quote section p{
+    transform: scale(1.1);
+}
+.footer-social{
+    grid-column: 1/7;
+    grid-row: 9;
+    text-align: center;
+    background-color: #239570;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8cc38;
+    box-shadow: 0px -8px 9px rgba(80, 80, 80, 0.5);
+    z-index: 1;
+}
+.linkin, .facebook, .twitter{
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+.linkin:hover, .facebook:hover, .twitter:hover{
+    transform: scale(1);
+    transition-duration: 0.8s;
 }
