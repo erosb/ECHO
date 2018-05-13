@@ -54,6 +54,7 @@ body{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 2vh;
+    font-weight: 200;
 }
 .one{
     grid-column: 2/3;
