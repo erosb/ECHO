@@ -39,7 +39,7 @@ body{
     text-align: center;
     font-weight: bold;
     border-top: 2px solid #f8cc38;
-    padding: 1vh;
+    padding: 2vh;
 }
 .mission_description{
     grid-column: 2/5;
@@ -48,9 +48,9 @@ body{
     z-index: 10;
     transform: scale(1);
     transition-duration: 1s;
-    background: #ea503c;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(105, 105, 105, 0.34);
+    background: #f8cc38;
+    color: #239570;
+    text-shadow: 1px 1px #155742;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 2vh;
