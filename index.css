@@ -11,7 +11,7 @@ body{
 .wrapper{
     display: grid;
     grid-template-columns: 13vw 24vw 24vw 24vw 13vw;
-    grid-template-rows: repeat(5, minmax(24vh, auto)) 24vh 10vh 15vh 20vh;
+    grid-template-rows: repeat(5, minmax(20vh, auto)) 24vh 10vh 15vh 20vh;
     padding-top: 26vh;
     font-family: "3ds";
 }
@@ -50,7 +50,6 @@ body{
     transition-duration: 1s;
     background: #f8cc38;
     color: #239570;
-    text-shadow: 1px 1px rgba(11, 42, 31, 0.51);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 2vh;
