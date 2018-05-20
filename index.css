@@ -113,3 +113,8 @@ body{
 .footer .uk-form-icon{
     color: #FFF138;
 }
+
+.uk-text-medium {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+}
