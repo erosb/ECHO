@@ -64,7 +64,7 @@ body{
 }
 
 .corevalues{
-    background: #FFF138;
+    background: white;
     color: #239570;
 }
 .corevalues h2{
@@ -112,6 +112,14 @@ body{
 }
 .footer .uk-form-icon{
     color: #FFF138;
+}
+.footer .uk-button-default{
+    margin: 2px;
+    color: #FFF138;
+    border: 1px solid #f8cc38;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .uk-text-medium {
