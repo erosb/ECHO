@@ -16,16 +16,24 @@ body{
 }
 
 .heading{
-    background: white;
+    background: #239570;
+    color: #f8cc38;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
-    -moz-box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
-    box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
+    -webkit-box-shadow: 7px 7px 9px rgba(38, 38, 38, 0.51);
+    -moz-box-shadow: 7px 7px 9px rgba(38, 38, 38, 0.51);
+    box-shadow: 7px 7px 9px rgba(38, 38, 38, 0.51);
 }
 .uk-heading-hero{
     font-family: Arkhip-Font, serif !important;
+    color: #f8cc38;
+    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+}
+.heading .uk-text-lead{
+    font-family: Hanken-Book, serif !important;
+    color: #f8cc38;
+    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
 }
 
 .navigation_bar{
@@ -47,7 +55,4 @@ body{
 
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
-}
-.uk-text-lead{
-    font-family: Hanken-Book, serif !important;
 }
