@@ -91,3 +91,25 @@ body{
 .footer{
     background: #239570;
 }
+.footer div form fieldset legend{
+    color: #FFF138;
+    font-family: Arkhip-Font, serif !important;
+    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+}
+.footer div form fieldset div input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #f8cc38;
+    color: #FFF138 !important;
+}
+.footer div form fieldset div input:focus{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #FFF138;
+}
+.footer div form fieldset div input::placeholder{
+    color: rgba(255, 241, 56, 0.5);
+}
+.footer .uk-form-icon{
+    color: #FFF138;
+}
