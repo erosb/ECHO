@@ -17,7 +17,7 @@ body{
 
 .heading{
     background: #239570;
-    color: #f8cc38;
+    color: #fff138;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -27,21 +27,21 @@ body{
 }
 .uk-heading-hero{
     font-family: Arkhip-Font, serif !important;
-    color: #f8cc38;
+    color: #fff138;
     text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
 }
 .heading .uk-text-lead{
     font-family: Hanken-Book, serif !important;
-    color: #f8cc38;
+    color: #fff138;
     text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
 }
 
 .navigation_bar{
-    background: #239570;
+    background: #208563;
     font-family: Hanken-Book, serif !important;
 }
 .uk-navbar-nav li a{
-    color: #FFF138 !important;
+    color: #fff138 !important;
     font-weight: 100 !important;
 }
 .uk-navbar-nav li a:hover{
@@ -55,4 +55,9 @@ body{
 
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
+    color: #fff138;
+}
+.articles{
+    background: #239570;
+    color: #fff138;
 }
