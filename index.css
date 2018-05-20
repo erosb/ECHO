@@ -10,20 +10,28 @@
     font-family: Arkhip-Font;
     src: url("assets/fonts/Arkhip_font.otf");
 }
+
 body{
-    font-family: Hanken-Light !important;
-}
-.uk-heading-hero{
-    font-family: Arkhip-Font !important;
-}
-.uk-text-lead{
-    font-family: Hanken-Book !important;
-}
-.navigation_bar{
-    background: #239570;
-    font-family: Hanken-Book !important;
+    font-family: Hanken-Light, serif !important;
 }
 
+.heading{
+    background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
+    -moz-box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
+    box-shadow: 7px 7px 4px rgba(111, 111, 111, 0.51);
+}
+.uk-heading-hero{
+    font-family: Arkhip-Font, serif !important;
+}
+
+.navigation_bar{
+    background: #239570;
+    font-family: Hanken-Book, serif !important;
+}
 .uk-navbar-nav li a{
     color: #FFF138 !important;
     font-weight: 100 !important;
@@ -35,4 +43,11 @@ body{
 .uk-navbar-nav .uk-active a{
     color: #FFF138 !important;
     font-weight: 900 !important;
+}
+
+.articles div article h1{
+    font-family: Arkhip-Font, serif !important;
+}
+.uk-text-lead{
+    font-family: Hanken-Book, serif !important;
 }
