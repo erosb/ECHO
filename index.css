@@ -56,8 +56,38 @@ body{
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
     color: #fff138;
+    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
 }
 .articles{
     background: #239570;
     color: #fff138;
+}
+
+.corevalues{
+    background: #FFF138;
+    color: #239570;
+}
+.corevalues h2{
+    font-family: Arkhip-Font, serif !important;
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
+}
+.corevalues ul li a{
+    color: #239570;
+    font-family: Hanken-Book, serif !important;
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
+}
+.corevalues ul li a:hover{
+    color: #25a780;
+    font-family: Hanken-Book, serif !important;
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
+}
+.corevalues ul li div{
+    color: #239570;
+    font-family: Hanken-Light, serif !important;
+    font-weight: 100;
+}
+
+.footer{
+    background: #239570;
 }
