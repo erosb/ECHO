@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Hanken-Light;
+    src: url("assets/fonts/Hanken-Light.ttf");
+}
+@font-face {
+    font-family: Hanken-Book;
+    src: url("assets/fonts/Hanken-Book.ttf");
+}
+@font-face {
+    font-family: Arkhip-Font;
+    src: url("assets/fonts/Arkhip_font.otf");
+}
+body{
+    font-family: Hanken-Light !important;
+}
+.uk-heading-hero{
+    font-family: Arkhip-Font !important;
+}
+.uk-text-lead{
+    font-family: Hanken-Book !important;
+}
+.navigation_bar{
+    background: #239570;
+    font-family: Hanken-Book !important;
+}
+
+.uk-navbar-nav li a{
+    color: #FFF138 !important;
+    font-weight: 100 !important;
+}
+.uk-navbar-nav li a:hover{
+    color: #FFF138 !important;
+    font-weight: 500 !important;
+}
+.uk-navbar-nav .uk-active a{
+    color: #FFF138 !important;
+    font-weight: 900 !important;
+}
