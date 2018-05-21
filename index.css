@@ -175,6 +175,7 @@ body{
 .icon{
     background-color: #ececec;
     z-index: 4;
+    transform: scale(1.03);
     box-shadow: 0px -10px 20px rgba(48, 48, 48, 0.51);
 }
 .linkedin{
