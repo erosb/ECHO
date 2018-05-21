@@ -16,8 +16,8 @@ body{
 }
 
 .heading{
-    background: #239570;
-    color: #fff138;
+    background: #ffffff;
+    color: #239570;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -27,13 +27,13 @@ body{
 }
 .uk-heading-hero{
     font-family: Arkhip-Font, serif !important;
-    color: #fff138;
-    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
 }
 .heading .uk-text-lead{
     font-family: Hanken-Book, serif !important;
-    color: #fff138;
-    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
 }
 
 .navigation_bar{
@@ -53,6 +53,16 @@ body{
     font-weight: 900 !important;
 }
 
+.article1 h1{
+    font-family: Arkhip-Font, serif !important;
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(37, 167, 128, 0.72);
+}
+.article{
+    background: #ffffff;
+    color: #239570;
+    padding: 5%;
+}
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
     color: #fff138;
