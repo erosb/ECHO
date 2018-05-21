@@ -16,7 +16,7 @@ body{
 }
 
 .heading{
-    background: #ffffff;
+    background: #ececec;
     color: #239570;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -59,9 +59,9 @@ body{
     text-shadow: 1px 1px 1px rgba(37, 167, 128, 0.72);
 }
 .article{
-    background: #ffffff;
+    background: #ececec;
     color: #239570;
-    padding: 5%;
+    padding: 10%;
 }
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
@@ -74,7 +74,7 @@ body{
 }
 
 .corevalues{
-    background: #FFF;
+    background: #ececec;
     color: #239570;
 }
 .corevalues h2{
@@ -100,6 +100,7 @@ body{
 
 .footer{
     background: #239570;
+    z-index: 4;
 }
 .footer div form fieldset legend{
     color: #FFF138;
@@ -109,27 +110,49 @@ body{
 .footer div form fieldset div input{
     background: transparent;
     border: none;
-    border-bottom: 1px dotted #f8cc38;
     color: #FFF138 !important;
+    font-weight: bold !important;
 }
 .footer div form fieldset div input:focus{
     background: transparent;
     border: none;
-    border-bottom: 1px dotted #FFF138;
 }
 .footer div form fieldset div input::placeholder{
     color: rgba(255, 241, 56, 0.5);
+    font-weight: bold;
 }
 .footer .uk-form-icon{
     color: #FFF138;
+    text-shadow:1px 1px 2px rgba(248, 204, 56, 0.51);
 }
 .footer .uk-button-default{
     margin: 2px;
-    color: #FFF138;
-    border: 1px solid #f8cc38;
+    color: #239570;
+    border: 1px solid #eec337;
+    background-color: #FFF138;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+.footer .uk-button-default:hover{
+    margin: 2px;
+    color: #FFF138;
+    border: 1px solid #f8cc38;
+    background-color: #239570;
+    font-weight: 700;
+    transition-duration: 0.8s;
+}
+
+.quote{
+    background-color: #EA503C;
+    color: mintcream;
+    font-weight: 500;
+}
+
+.icon{
+
 }
 
 .uk-text-medium {
