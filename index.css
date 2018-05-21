@@ -75,26 +75,26 @@ body{
 }
 
 .corevalues{
-    background: #ececec;
-    color: #239570;
+    background: #E94F3B;
+    color: white;
 }
 .corevalues h2{
     font-family: Arkhip-Font, serif !important;
-    color: #239570;
+    color: white;
     text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li a{
-    color: #239570;
+    color: white;
     font-family: Hanken-Book, serif !important;
     text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li a:hover{
-    color: #25a780;
+    color: #ececec;
     font-family: Hanken-Book, serif !important;
     text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li div{
-    color: #239570;
+    color: white;
     font-family: Hanken-Light, serif !important;
     font-weight: 100;
 }
