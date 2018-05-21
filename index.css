@@ -115,10 +115,12 @@ body{
     border: none;
     color: #FFF138 !important;
     font-weight: bold !important;
+    border-bottom: 1px solid rgba(248, 204, 56, 0.68);
 }
 .footer div form fieldset div input:focus{
     background: transparent;
     border: none;
+    border-bottom: 1px solid rgba(248, 204, 56, 0.68);
 }
 .footer div form fieldset div input::placeholder{
     color: rgba(255, 241, 56, 0.5);
