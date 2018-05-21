@@ -124,6 +124,10 @@ body{
     color: rgba(255, 241, 56, 0.5);
     font-weight: bold;
 }
+.footer div form fieldset div input:hover::placeholder{
+    color: rgba(233, 218, 44, 0.5);
+    font-weight: bold;
+}
 .footer .uk-form-icon{
     color: #FFF138;
     text-shadow:1px 1px 2px rgba(248, 204, 56, 0.51);
@@ -154,6 +158,7 @@ body{
     font-weight: 500;
     z-index: 1;
     transition-duration: 0.3s;
+    box-shadow: 1px 10px 15px rgba(48, 48, 48, 0.51);
 }
 .quote:hover{
     background-color: #EA503C;
@@ -163,13 +168,48 @@ body{
     transform: scale(1.1);
     transition-duration: 0.8s;
 }
+.quote .uk-text-muted{
+    color: #d8d8d8 !important;
+}
 
 .icon{
-    background-color: #239570;
+    background-color: #ececec;
     z-index: 4;
     box-shadow: 0px -10px 20px rgba(48, 48, 48, 0.51);
 }
-
+.linkedin{
+    color: #0077b5;
+    transition-duration: 0.2s;
+}.linkedin:hover{
+     color: #000;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+ }
+.instagram{
+    color: #d64f62;
+}.instagram:hover{
+     color: #000;
+     transform: scale(1.2);
+     transition-duration: 0.5s;
+ }
+.twitter{
+    color: #1da1f2;
+}.twitter:hover{
+     color: #000;
+     transform: scale(1.2);
+     transition-duration: 0.5s;
+ }
+.facebook{
+    color: #3b5998;
+}.facebook:hover{
+     color: #000;
+     transform: scale(1.2);
+     transition-duration: 0.5s;
+ }
+.copyright{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .uk-text-medium {
     font-size: 1.1875rem;
     line-height: 1.5;
