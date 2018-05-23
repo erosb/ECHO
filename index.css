@@ -105,6 +105,34 @@ body{
 .cards{
     background-color: #239570;
 }
+.uk-card{
+    background-color: #ececec;
+}
+.cards h1{
+    font-family: Arkhip-Font, serif !important;
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
+    text-transform: uppercase;
+}
+.cards .uk-button-default{
+    margin: 2px;
+    color: #239570;
+    border: 1px solid #229971;
+    background-color: #ececec;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+.cards .uk-button-default:hover{
+    margin: 2px;
+    color: #ececec;
+    border: 1px solid #1e7a5b;
+    background-color: #239570;
+    font-weight: 700;
+    transition-duration: 0.8s;
+}
 
 .footer{
     background: #ececec;
