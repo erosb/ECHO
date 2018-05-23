@@ -105,10 +105,17 @@ body{
 .cards{
     background-color: #239570;
 }
-.uk-card{
+.card{
     background-color: #ececec;
+    transform: scale(1);
+    transition-duration: 0.3s !important;
 }
-.cards h1{
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s !important;
+    z-index: 10;
+}
+.cards h2{
     font-family: Arkhip-Font, serif !important;
     color: #239570;
     text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
