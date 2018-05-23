@@ -66,12 +66,15 @@ body{
 }
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
-    color: #fff138;
-    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(231, 231, 231, 0.51);
 }
 .articles{
     background: #239570;
-    color: #fff138;
+    color: #ececec;
+}
+.you{
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 .corevalues{
@@ -99,46 +102,57 @@ body{
     font-weight: 100;
 }
 
+.cards{
+    background-color: #239570;
+}
+
 .footer{
-    background: #239570;
+    background: #ececec;
     z-index: 4;
-    transform: scale(1.04);
-    box-shadow: 0px 10px 20px rgba(48, 48, 48, 0.51);
+    transform: scale(1.001);
+    transition-duration: 0.3s;
+    box-shadow: 0px 10px 10px rgba(77, 77, 77, 0.25);
+}
+.footer:hover{
+    background: #ececec;
+    z-index: 10;
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    box-shadow: 0px 10px 10px rgba(77, 77, 77, 0.25);
 }
 .footer div form fieldset legend{
-    color: #FFF138;
+    color: #239570;
     font-family: Arkhip-Font, serif !important;
-    text-shadow: 1px 1px 1px rgba(253, 203, 67, 0.72);
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .footer div form fieldset div input{
     background: transparent;
     border: none;
-    color: #FFF138 !important;
+    color: #239570 !important;
     font-weight: bold !important;
-    border-bottom: 1px solid rgba(248, 204, 56, 0.68);
+    border-bottom: 1px solid rgba(21, 107, 79, 0.5);
 }
 .footer div form fieldset div input:focus{
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(248, 204, 56, 0.68);
+    border-bottom: 1px solid rgba(21, 107, 79, 0.59);
 }
 .footer div form fieldset div input::placeholder{
-    color: rgba(255, 241, 56, 0.5);
+    color: rgba(35, 149, 112, 0.6);
     font-weight: bold;
 }
 .footer div form fieldset div input:hover::placeholder{
-    color: rgba(233, 218, 44, 0.5);
+    color: rgba(35, 149, 112, 0.4);
     font-weight: bold;
 }
 .footer .uk-form-icon{
-    color: #FFF138;
-    text-shadow:1px 1px 2px rgba(248, 204, 56, 0.51);
+    color: #239570;
 }
 .footer .uk-button-default{
     margin: 2px;
     color: #239570;
-    border: 1px solid #eec337;
-    background-color: #FFF138;
+    border: 1px solid #229971;
+    background-color: #ececec;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -147,8 +161,8 @@ body{
 }
 .footer .uk-button-default:hover{
     margin: 2px;
-    color: #FFF138;
-    border: 1px solid #f8cc38;
+    color: #ececec;
+    border: 1px solid #1e7a5b;
     background-color: #239570;
     font-weight: 700;
     transition-duration: 0.8s;
@@ -160,23 +174,17 @@ body{
     text-shadow: 1px 1px 1px rgba(32, 127, 95, 0.53);
     font-weight: 700;
     z-index: 1;
-    transition-duration: 0.3s;
     box-shadow: 1px 10px 15px rgba(48, 48, 48, 0.51);
 }
-.quote:hover{
-    z-index: 10;
-    transform: scale(1.1);
-    transition-duration: 0.8s;
-}
 .quote .uk-text-muted{
-    color: rgba(32, 127, 95, 0.53) !important;
+    color: rgba(32, 127, 95, 0.63) !important;
 }
 
 .icon{
     background-color: #ececec;
     z-index: 4;
     transform: scale(1.03);
-    box-shadow: 0px -10px 20px rgba(48, 48, 48, 0.51);
+    box-shadow: 0px -10px 10px rgba(77, 77, 77, 0.25);
 }
 .linkedin{
     color: #0077b5;
