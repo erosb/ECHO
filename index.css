@@ -107,14 +107,16 @@ body{
 }
 .card{
     background-color: #ececec;
-    transform: scale(1);
-    transition-duration: 0.3s;
-    border-radius: 2%;
 }
 .card:hover{
-    transform: scale(1.1);
     transition-duration: 1s;
-    z-index: 10;
+    transform: scale(1.1);
+    z-index: 100;
+}
+.image:hover{
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 100;
 }
 .cards h2{
     font-family: Arkhip-Font, serif !important;
@@ -140,11 +142,6 @@ body{
     background-color: #239570;
     font-weight: 700;
     transition-duration: 0.8s;
-}
-.image{
-    transform: scale(1.1);
-    transition-duration: 0.3s;
-    border-radius: 2%;
 }
 
 .footer{
