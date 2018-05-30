@@ -257,6 +257,14 @@ body{
      transform: scale(1.2);
      transition-duration: 0.5s;
  }
+ .youtube{
+     color: #ff0000;
+ }
+ .youtube:hover{
+     color: #000;
+     transform: scale(1.2);
+     transition-duration: 0.5s;
+ }
 .copyright{
     text-transform: uppercase;
     font-weight: bold;
