@@ -28,8 +28,8 @@ body{
 }
 .uk-heading-hero{
     font-family: Arkhip-Font, serif !important;
-    color: #fff138;
-    text-shadow: 1px 1px 1px rgba(255, 241, 56, 0.71);
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
 }
 .heading .uk-text-lead{
     font-family: Hanken-Book, serif !important;
@@ -42,32 +42,32 @@ body{
     font-family: Hanken-Book, serif !important;
 }
 .uk-navbar-nav li a{
-    color: #fff138 !important;
+    color: white !important;
     font-weight: 100 !important;
 }
 .uk-navbar-nav li a:hover{
-    color: #cfc22e !important;
+    color: #e5e5e5 !important;
     font-weight: 800 !important;
 }
 .uk-navbar-nav .uk-active a{
-    color: #d1c52b !important;
+    color: #ececec !important;
     font-weight: 900 !important;
 }
 
 .article1 h1{
     font-family: Arkhip-Font, serif !important;
-    color: #c02e1d;
-    text-shadow: 1px 1px 1px rgba(226, 30, 24, 0.71);
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(37, 167, 128, 0.72);
 }
 .article{
-    background: #fff;
-    color: #E21E18;
+    background: #ececec;
+    color: #239570;
     padding: 10%;
 }
 .articles div article h1{
     font-family: Arkhip-Font, serif !important;
-    color: #c02e1d;
-    text-shadow: 1px 1px 1px #8a231b;
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(231, 231, 231, 0.51);
 }
 .articles{
     background: #239570;
@@ -78,26 +78,26 @@ body{
 }
 
 .corevalues{
-    background: #fff;
+    background: #ececec;
     color: white;
 }
 .corevalues h2{
     font-family: Arkhip-Font, serif !important;
-    color: #c02e1d;
-    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li a{
-    color: #c02e1d;
+    color: #239570;
     font-family: Hanken-Book, serif !important;
-    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li a:hover{
-    color: #7a1612;
+    color: #196249;
     font-family: Hanken-Book, serif !important;
-    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .corevalues ul li div{
-    color: #c02e1d;
+    color: #239570;
     font-family: Hanken-Light, serif !important;
     font-weight: 100;
 }
@@ -106,7 +106,7 @@ body{
     background-color: #239570;
 }
 .card{
-    background-color: #fff;
+    background-color: #ececec;
 }
 .card:hover{
     transition-duration: 1s;
@@ -120,15 +120,15 @@ body{
 }
 .cards h2{
     font-family: Arkhip-Font, serif !important;
-    color: #c02e1d;
-    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    color: #239570;
+    text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
     text-transform: uppercase;
 }
 .cards .uk-button-default{
     margin: 2px;
-    color: #c02e1d;
-    border: 1px solid #892318;
-    background-color: #fff;
+    color: #239570;
+    border: 1px solid #229971;
+    background-color: #ececec;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -137,59 +137,60 @@ body{
 }
 .cards .uk-button-default:hover{
     margin: 2px;
-    color: #fff;
-    border: 1px solid #8a2418;
-    background-color: #c02e1d;
+    color: #ececec;
+    border: 1px solid #1e7a5b;
+    background-color: #239570;
     font-weight: 700;
     transition-duration: 0.8s;
 }
 
 .footer{
-    background: #fff;
+    background: #ececec;
     z-index: 4;
     transform: scale(1.001);
     transition-duration: 0.3s;
     box-shadow: 0px 10px 10px rgba(77, 77, 77, 0.25);
 }
 .footer:hover{
+    background: #ececec;
     z-index: 10;
     transform: scale(1.1);
     transition-duration: 0.8s;
     box-shadow: 0px 10px 10px rgba(77, 77, 77, 0.25);
 }
 .footer div form fieldset legend{
-    color: #c02e1d;
+    color: #239570;
     font-family: Arkhip-Font, serif !important;
-    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    text-shadow: 1px 1px 1px rgba(21, 107, 79, 0.5);
 }
 .footer div form fieldset div input{
     background: transparent;
     border: none;
-    color: #c02e1d !important;
+    color: #239570 !important;
     font-weight: bold !important;
-    border-bottom: 1px solid rgba(192, 46, 29, 0.71);
+    border-bottom: 1px solid rgba(21, 107, 79, 0.5);
 }
 .footer div form fieldset div input:focus{
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(192, 46, 29, 0.71);
+    border-bottom: 1px solid rgba(21, 107, 79, 0.59);
 }
 .footer div form fieldset div input::placeholder{
-    color: rgba(192, 46, 29, 0.60);
+    color: rgba(35, 149, 112, 0.6);
     font-weight: bold;
 }
 .footer div form fieldset div input:hover::placeholder{
-    color: rgba(192, 46, 29, 0.4);
+    color: rgba(35, 149, 112, 0.4);
     font-weight: bold;
 }
 .footer .uk-form-icon{
-    color: #c02e1d;
+    color: #239570;
 }
 .footer .uk-button-default{
     margin: 2px;
-    color: #c02e1d;
-    border: 1px solid #8a2317;
-    background-color: #fff;
+    color: #239570;
+    border: 1px solid #229971;
+    background-color: #ececec;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -198,9 +199,9 @@ body{
 }
 .footer .uk-button-default:hover{
     margin: 2px;
-    color: #fff;
-    border: 1px solid #8a241b;
-    background-color: #c02e1d;
+    color: #ececec;
+    border: 1px solid #1e7a5b;
+    background-color: #239570;
     font-weight: 700;
     transition-duration: 0.8s;
 }
@@ -262,7 +263,6 @@ body{
      transition-duration: 0.5s;
  }
 .copyright{
-    color: #691911;
     text-transform: uppercase;
     font-weight: bold;
 }
