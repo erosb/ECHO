@@ -18,7 +18,7 @@ body{
 
 .heading{
     background: #239570;
-    color: #ececec;
+    color: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -56,8 +56,8 @@ body{
 
 .article1 h1{
     font-family: Arkhip-Font, serif !important;
-    color: #c02e1d;
-    text-shadow: 1px 1px 1px rgba(226, 30, 24, 0.71);
+    color: #fff138;
+    text-shadow: 1px 1px 1px rgba(255, 241, 56, 0.7);
 }
 .article{
     background: #fff;
