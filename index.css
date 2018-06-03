@@ -53,11 +53,23 @@ body{
     color: #d1c52b !important;
     font-weight: 900 !important;
 }
-.uk-navbar-nav li .sub{
-    color: #4b110d !important;
+.uk-navbar-nav .uk-button-default{
+    background-color: #fff !important;
+    border: none;
+    transition-duration: 0.2s;
 }
-.uk-navbar-nav li .sub:hover{
-    color: #902518 !important;
+.uk-navbar-nav .uk-button-default .sub{
+    color: #c02e1d;
+    transition-duration: 0.1s;
+}
+.uk-navbar-nav .uk-button-default:hover{
+    background-color: #c02e1d !important;
+    border: none;
+    transition-duration: 0.7s;
+}
+.uk-navbar-nav .uk-button-default .sub:hover{
+    color: #fff;
+    transition-duration: 0.6s;
 }
 
 .article1 h1{
