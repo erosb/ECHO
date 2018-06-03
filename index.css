@@ -41,17 +41,23 @@ body{
     background: #208563;
     font-family: Hanken-Book, serif !important;
 }
-.uk-navbar-nav li a{
+.uk-navbar-nav li .link{
     color: #fff138 !important;
     font-weight: 100 !important;
 }
-.uk-navbar-nav li a:hover{
+.uk-navbar-nav li .link:hover{
     color: #cfc22e !important;
     font-weight: 800 !important;
 }
-.uk-navbar-nav .uk-active a{
+.uk-navbar-nav .uk-active .link{
     color: #d1c52b !important;
     font-weight: 900 !important;
+}
+.uk-navbar-nav li .sub{
+    color: #4b110d !important;
+}
+.uk-navbar-nav li .sub:hover{
+    color: #902518 !important;
 }
 
 .article1 h1{
