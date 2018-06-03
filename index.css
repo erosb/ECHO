@@ -54,21 +54,21 @@ body{
     font-weight: 900 !important;
 }
 .uk-navbar-nav .uk-button-default{
-    background-color: #fff !important;
+    background-color: #fff138 !important;
     border: none;
     transition-duration: 0.2s;
 }
 .uk-navbar-nav .uk-button-default .sub{
-    color: #c02e1d;
+    color: #239570;
     transition-duration: 0.1s;
 }
 .uk-navbar-nav .uk-button-default:hover{
-    background-color: #c02e1d !important;
+    background-color: #239570 !important;
     border: none;
     transition-duration: 0.7s;
 }
 .uk-navbar-nav .uk-button-default .sub:hover{
-    color: #fff;
+    color: #fff138;
     transition-duration: 0.6s;
 }
 
