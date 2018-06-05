@@ -207,7 +207,7 @@ body{
     margin: 2px;
     color: #c02e1d;
     border: 1px solid #8a2317;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
