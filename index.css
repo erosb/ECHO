@@ -41,6 +41,14 @@ body{
     background: #208563;
     font-family: Hanken-Book, serif !important;
 }
+
+.uk-navbar-nav li img {
+  margin-right: 0.2em;
+  width: 45px;
+  max-width: 100%;
+  max-height: 45px;
+}
+
 .uk-navbar-nav li .link{
     color: #fff138 !important;
     font-weight: 100 !important;
