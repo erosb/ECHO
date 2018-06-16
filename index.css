@@ -128,6 +128,16 @@ body{
     font-weight: 100;
 }
 
+
+.landing-background {
+  min-height: 91vh;
+  height: 91vh;
+}
+
+.echo-card {
+  padding: 50px;
+}
+
 .uk-card-body {
   padding: 0;
 }
