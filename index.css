@@ -128,6 +128,9 @@ body{
     font-weight: 100;
 }
 
+.uk-card-body {
+  padding: 0;
+}
 .cards{
     background-color: #239570;
     padding: 10%;
