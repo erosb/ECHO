@@ -132,6 +132,7 @@ body{
 .landing-background {
   min-height: 91vh;
   height: 91vh;
+  background-image: url(assets/mountain-background.jpg);
 }
 
 .echo-card {
