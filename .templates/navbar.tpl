@@ -7,7 +7,7 @@
                             Home
                           </a>
                         </li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">Our Story</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="our-story.html" class="link">Our Story</a></li>
                         <li class="uk-parent uk-text-medium"><a href="#" class="link">Adventures</a></li>
                         <li class="uk-parent uk-text-medium"><a href="#" class="link">ECHO Friends</a></li>
                         <li class="uk-parent uk-text-medium"><a href="#" class="link">Knowledge Centre</a></li>
