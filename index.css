@@ -361,3 +361,12 @@ font-family: Georgia;
 article div.uk-container p {
     font-size: 1.2em
 }
+
+article.article-green {
+    background-color: #239570;
+    color: white;
+}
+
+article.article-green h1 {
+    color: #fff138
+}
