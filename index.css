@@ -326,7 +326,6 @@ body{
 .frontpage-quote-cnt {
     width: 70%;
     background-color: rgba(255, 255, 255, 0.7);
-    /* border: 0.6em solid rgba(255, 179, 102, 0.3);*/
     border-radius: 1.3em; 
 }
 
@@ -336,13 +335,12 @@ body{
 }
 
 .frontpage-quote-cnt .fp-quote {
-font-family: Georgia;
+    font-family: Georgia;
     font-style: italic;
     font-size: 2.2em;
 }
 
 .frontpage-quote-cnt .fp-quote:before {
-    // font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
     font: 6em/1.08em 'Georgia', sans-serif;
     color: #ccc;
     content: '\201C';
@@ -358,7 +356,7 @@ font-family: Georgia;
 }
 
 
-article div.uk-container p {
+article div.uk-container.otherpage-text p {
     font-size: 1.2em
 }
 

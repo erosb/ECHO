@@ -9,7 +9,7 @@
                         </li>
                         <li class="uk-parent uk-text-medium"><a href="our-story.html" class="link">Our Story</a></li>
                         <li class="uk-parent uk-text-medium"><a href="adventures.html" class="link">Adventures</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="friends.html" class="link">ECHO Friends</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="echo-friends.html" class="link">ECHO Friends</a></li>
                         <li class="uk-parent uk-text-medium"><a href="knowledge-centre.html" class="link">Knowledge Centre</a></li>
                         <li class="uk-parent uk-text-medium"><a href="partners-for-life.html" class="link">Partners for Life</a></li>
                         <li class="uk-parent uk-text-medium uk-button-default"><a href="index.html#sub" class="sub"> Join our Community</a></li>
