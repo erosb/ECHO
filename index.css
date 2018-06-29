@@ -360,6 +360,10 @@ article div.uk-container.otherpage-text p {
     font-size: 1.2em
 }
 
+article div.uk-container.otherpage-text h1 {
+    margin-bottom: 1.83em;
+}
+
 article.article-green {
     background-color: #239570;
     color: white;
