@@ -368,3 +368,7 @@ article.article-green {
 article.article-green h1 {
     color: #fff138
 }
+
+a.card-outer-link:hover {
+    text-decoration: none;
+}
