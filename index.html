@@ -30,13 +30,22 @@
         <script src="lib/uikit-3.0.0-rc.2/js/uikit.js"></script>
         <script src="lib/uikit-3.0.0-rc.2/js/uikit-icons.js"></script>
         <link rel="stylesheet" href="index.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121894013-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121894013-1');
+</script>
     </head>
     <body>
         <div>
-            <div class="uk-background-cover uk-background-fixed uk-background-norepeat uk-height-viewport uk-panel uk-flex uk-flex-right uk-flex-middle" style="background-image: url(assets/bg.jpg);">
+            <div class="uk-background-cover uk-background-fixed uk-background-norepeat uk-height-viewport uk-panel uk-flex uk-flex-right uk-flex-middle landing-background">
                 <div class="uk-child-width-1-2@m uk-padding-large uk-align-center" uk-grid>
                     <div></div>
-                    <div class="heading uk-padding-large uk-container"  uk-scrollspy="cls: uk-animation-slide-left">
+                    <div class="heading uk-padding-large uk-container echo-card"  uk-scrollspy="cls: uk-animation-slide-left">
                         <h1 class="uk-heading-hero uk-text-center">ECHO</h1>
                         <p class="uk-text-lead">Even a single person’s voice could shake mountains in the right circumstances. Imagine what could happen if thousands are united behind a really powerful yell…</p>
                         <p class="uk-text-medium">Naturally, we are not here to urge you to destroy any remarkable creations of Mother Nature. This metaphor stands here to convey the magnitude of the life-changing journey we invite you on. A journey where all of us will greatly benefit: YOU (as the Yell Of Unity), the hard-working non-profit organisations and the rest of the inhabitants of our precious planet. Win-Win-Win!
@@ -47,16 +56,30 @@
             <nav class="navigation_bar" style="z-index: 980;" uk-sticky="bottom: #offset" uk-navbar>
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active uk-text-medium"><a href="index.html" class="link">Home</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">Our Story</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">Adventures</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">ECHO Friends</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">Knowledge Centre</a></li>
-                        <li class="uk-parent uk-text-medium"><a href="#" class="link">Partners for Life</a></li>
-                        <li class="uk-parent uk-text-medium uk-button-default"><a href="#sub" class="sub " uk-scroll> Join our Community</a></li>
+                        <li class="uk-active uk-text-medium">
+                          <a href="index.html" class="link">
+                            <img src="assets/twitterimage.png" />
+                            Home
+                          </a>
+                        </li>
+                        <li class="uk-parent uk-text-medium"><a href="our-story.html" class="link">Our Story</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="adventures.html" class="link">Adventures</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="echo-friends.html" class="link">ECHO Friends</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="knowledge-centre.html" class="link">Knowledge Centre</a></li>
+                        <li class="uk-parent uk-text-medium"><a href="partners-for-life.html" class="link">Partners for Life</a></li>
+                        <li class="uk-parent uk-text-medium uk-button-default"><a href="index.html#sub" class="sub"> Join our Community</a></li>
                     </ul>
                 </div>
             </nav>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121894013-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121894013-1');
+</script>
             <article class="uk-article uk-text-center uk-padding-large article1 article">
                 <div class="uk-container">
                     <div>
@@ -80,7 +103,7 @@
                     </article>
                     <article class="uk-article uk-text-left" uk-scrollspy="cls: uk-animation-slide-left">
                         <div>
-                            <div class="uk-responsive-height uk-padding-large uk-background-cover uk-background-blend-luminosity uk-panel uk-border-rounded" data-src="assets/people-coffee-tea-meeting.jpg" uk-img>
+                            <div class="uk-responsive-height uk-padding-large uk-background-cover uk-background-blend-luminosity uk-panel uk-border-rounded" data-src="assets/you-bg.jpg" uk-img>
                                 <div class="uk-margin-medium uk-padding-small uk-text-center you uk-border-rounded">
                                     <h1 class="uk-article-title uk-text-uppercase">You</h1>
                                     <p class="uk-text-medium">To achieve our noble goals, we will need a few crucial ingredients to succeed.</p>
@@ -147,53 +170,66 @@
                     <div class="uk-card uk-background-cover uk-background-center-center image" data-src="assets/pexels-photo-754769.jpeg" uk-img>
 
                     </div>
-                    <div class="uk-card card uk-card-default uk-padding-large uk-text-center">
-                        <div class="uk-card-body ">
-                            <h2>Become an ECHO Friend</h2>
-                            <form method="get" action="#" class="">
-                                <fieldset class="uk-fieldset">
-                                    <button class="uk-button uk-button-default">Make some noise!</button>
-                                </fieldset>
-                            </form>
+                    <a href="echo-friends.html" class="card-outer-link">
+                        <div class="uk-card card uk-card-default uk-padding-large uk-text-center">
+                            <div class="uk-card-body ">
+                                <h2>Become an ECHO Friend</h2>
+                                <form method="get" action="echo-friends.html" class="">
+                                    <fieldset class="uk-fieldset">
+                                        <button class="uk-button uk-button-default">Make some noise!</button>
+                                    </fieldset>
+                                </form>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                    
                     <div class="uk-card uk-background-cover uk-background-center-center image" data-src="assets/pexels-photo-1068523.jpeg" uk-img>
 
                     </div>
-                    <div class="uk-card card uk-card-default uk-padding-large uk-text-center uk-flex-wrap">
-                        <div class="uk-card-body">
-                            <h2> ECHO Adventure</h2>
-                            <form method="get" action="#" class="">
-                                <fieldset class="uk-fieldset">
+                    
+                    <a href="adventures.html" class="card-outer-link">
+                        <div class="uk-card card uk-card-default uk-padding-large uk-text-center uk-flex-wrap">
+                            <div class="uk-card-body">
+                                <h2> ECHO Adventures</h2>
+                                <form method="get" action="adventures.html" class="">
+                                    <fieldset class="uk-fieldset">
                                         <button class="uk-button uk-button-default">Let's Play!</button>
-                                </fieldset>
-                            </form>
+                                    </fieldset>
+                                </form>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="uk-card uk-background-cover uk-background-center-center image" data-src="assets/clasped-hands-comfort-hands-people-45842.jpeg" uk-img>
 
                     </div>
-                    <div class="uk-card card uk-card-default uk-padding-large uk-text-center">
-                        <div class="uk-card-body">
-                            <h2>Partners for life</h2>
-                            <form method="get" action="#" class="">
-                                <fieldset class="uk-fieldset">
-                                    <button class="uk-button uk-button-default">Together we can!</button>
-                                </fieldset>
-                            </form>
+                    
+                    <a href="partners-for-life.html" class="card-outer-link">
+                        <div class="uk-card card uk-card-default uk-padding-large uk-text-center">
+                            <div class="uk-card-body">
+                                <h2>Partners for life</h2>
+                                <form method="get" action="partners-for-life.html" class="">
+                                    <fieldset class="uk-fieldset">
+                                        <button class="uk-button uk-button-default">Together we can!</button>
+                                    </fieldset>
+                                </form>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="uk-padding-large footer uk-background-cover uk-background-center-center image" data-src="assets/monkey_business_subscription.jpg" uk-img  id="sub">
                 <div class="uk-container mc_embed_signup">
                     <form class="uk-padding-large uk-text-center validate" action="https://facebook.us18.list-manage.com/subscribe/post?u=a447bd78c2b0d7a20c220592b&amp;id=4fa086e621" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <fieldset class="uk-fieldset">
-                            <legend>You are only one step away from being part of a 100% fair, fun, fast growing online community. <br>No monkey business involved... <br>I promise.</legend>
+                            <legend>You are only one step away from being part of a 100% fair, fun, fast growing online community. <br>No monkey business involved... <br>We promise.</legend>
                             <div class="uk-margin">
                                 <div class="uk-inline@s">
                                     <a class="uk-form-icon" uk-icon="icon: user"></a>
-                                    <input class="uk-input" type="text" placeholder="Name"name="FNAME" class="" id="mce-FNAME" required />
+                                    <input class="uk-input" type="text" placeholder="First name"name="FNAME" class="" id="mce-FNAME" required />
+                                </div>
+                                <div class="uk-inline@s">
+                                    <a class="uk-form-icon" uk-icon="icon: user"></a>
+                                    <input class="uk-input" type="text" placeholder="Last name"name="LNAME" class="" id="mce-LNAME" required />
                                 </div>
                                 <div class="uk-inline@s">
                                     <a class="uk-form-icon" uk-icon="icon: mail"></a>
@@ -214,24 +250,15 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-padding-small contact">
-                <div class="uk-container uk-text-center">
-                    <h2>Contact us</h2>
-                    <p><a href="mailto:zoltan.echo@gmail.com">Zoltan Harshegyi</a></p>
-                </div>
-            </div>
             <div class="uk-padding-large icon">
                 <div class="uk-container">
-                    <div class="uk-padding-large uk-text-center">
+                    <div class="uk-padding-large uk-text-center" id="cnt-social-media-buttons">
+                        <a class="linkedin uk-padding-small" href="mailto:hello@echofriends.org.uk" uk-icon="icon: mail; ratio: 2"></a>
                         <a class="linkedin uk-padding-small" href="https://www.linkedin.com/company/echofriendsUK/" uk-icon="icon: linkedin; ratio: 2"></a>
                         <a class="instagram uk-padding-small" href="https://www.instagram.com/echofriendsUK/" uk-icon="icon: instagram; ratio: 2"></a>
                         <a class="twitter uk-padding-small" href="https://twitter.com/echofriendsUK/" uk-icon="icon: twitter; ratio: 2"></a>
                         <a class="facebook uk-padding-small" href="https://www.facebook.com/echofriendsUK/" uk-icon="icon: facebook; ratio: 2"></a>
-                        <a class="youtube uk-padding-small" href="#" uk-icon="icon: youtube; ratio: 2"></a>
-                    </div>
-                    <div>
-                        <p class="copyright uk-text-center">ECHO &copy; 2018</p>
-                        <p class="michael uk-text-muted uk-text-small uk-text-center">Designed by <a class="uk-link-muted" href="https://www.linkedin.com/in/michaeljouanneau/">Michael P. Jouanneau</a></p>
+                        <!-- <img src="assets/social-media-bubble.png"/> -->
                     </div>
                 </div>
             </div>
