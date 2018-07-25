@@ -39,6 +39,15 @@ body{
     text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
 }
 
+@media (max-width: 640px) {
+    .heading .uk-text-lead {
+        font-size: medium;
+    }
+    .heading .uk-text-medium{
+        font-size: small;
+    }
+}
+
 .navigation_bar{
     background: #208563;
     font-family: Hanken-Book, serif !important;
@@ -87,6 +96,13 @@ body{
     color: #c02e1d;
     text-shadow: 1px 1px 1px rgba(226, 30, 24, 0.71);
 }
+
+@media (max-width: 640px) {
+    .article1 dov div img{
+        width: 100px;
+    }
+}
+
 .article{
     background: #fff;
     color: #E21E18;
