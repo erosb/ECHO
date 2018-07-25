@@ -162,7 +162,6 @@ body{
 }
 .cards{
     background-color: #239570;
-    padding: 10%;
 }
 .card{
     background-color: #fff;
@@ -444,3 +443,7 @@ a.card-outer-link:hover {
     }
 }
 */
+.advent-sub:hover{
+    background-color: #239570;
+    color: #fff138;
+}
