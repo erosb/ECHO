@@ -342,7 +342,7 @@ body{
 .frontpage-quote-cnt {
     width: 70%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 1.3em; 
+    border-radius: 1.3em;
 }
 
 .frontpage-quote-cnt h1 {
@@ -371,6 +371,41 @@ body{
     font-size: 1.4em;
 }
 
+@media (max-width : 640px) {
+
+    .frontpage-quote-cnt {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 1.1em;
+    }
+
+    .frontpage-quote-cnt h1 {
+        font-family: Hanken-Light, serif;
+        font-weight: bold;
+    }
+
+    .frontpage-quote-cnt .fp-quote {
+        font-family: Georgia;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    .frontpage-quote-cnt .fp-quote:before {
+        font: 6em/1.08em 'Georgia', sans-serif;
+        color: #ccc;
+        content: '\201C';
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.6em;
+    }
+
+    .frontpage-quote-cnt author {
+        float: right;
+        font-size: medium;
+    }
+
+}
 
 article div.uk-container.otherpage-text p {
     font-size: 1.2em
