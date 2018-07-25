@@ -160,7 +160,7 @@ body{
 .uk-card-body {
   padding: 0;
 }
-.cards{
+.card1s{
     background-color: #239570;
 }
 .card{
@@ -176,6 +176,32 @@ body{
     transform: scale(1.1);
     z-index: 100;
 }
+.card1s h2{
+    font-family: Arkhip-Font, serif !important;
+    color: #c02e1d;
+    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    text-transform: uppercase;
+}
+.card1s .uk-button-default{
+    margin: 2px;
+    color: #c02e1d;
+    border: 1px solid #892318;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+.card1s .uk-button-default:hover{
+    margin: 2px;
+    color: #fff;
+    border: 1px solid #8a2418;
+    background-color: #c02e1d;
+    font-weight: 700;
+    transition-duration: 0.8s;
+}
+
 .cards h2{
     font-family: Arkhip-Font, serif !important;
     color: #c02e1d;
