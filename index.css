@@ -473,3 +473,5 @@ a.card-outer-link:hover {
     background-color: #239570;
     color: #fff138;
 }
+/* Cursor */
+.typed-cursor {visibility: hidden}
