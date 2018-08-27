@@ -15,7 +15,7 @@
         <meta property="og:url" content="https://michael-jouanneau.github.io/ECHO/" />
         <meta property="og:title" content="ECHO : Eco-Community Hub Organisation" />
         <meta property="og:description" content="…Even a single person’s voice could shake mountains in the right circumstances. Imagine what could happen if thousands are united behind a really powerful yell…"/>
-        <meta property="og:image" content="https://raw.githubusercontent.com/Michael-Jouanneau/ECHO/master/assets/twitterimage.png"/>
+        <meta property="og:image" content="assets/og-thumbnail.png"/>
         <meta property="fb:app_id" content="" />
         <meta name="twitter:site" content="">
         <meta property="og:site_name" content="ECHO : Eco-Community Hub Organisation">
@@ -33,11 +33,13 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121894013-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    if (window.location.hostname != "localhost") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-121894013-1');
+    gtag('config', 'UA-121894013-1');
+    }
 </script>
     </head>
     <body>
