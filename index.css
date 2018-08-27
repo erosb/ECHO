@@ -39,6 +39,15 @@ body{
     text-shadow: 1px 1px 1px rgba(32, 133, 99, 0.72);
 }
 
+@media (max-width: 640px) {
+    .heading .uk-text-lead {
+        font-size: medium;
+    }
+    .heading .uk-text-medium{
+        font-size: small;
+    }
+}
+
 .navigation_bar{
     background: #208563;
     font-family: Hanken-Book, serif !important;
@@ -87,6 +96,13 @@ body{
     color: #c02e1d;
     text-shadow: 1px 1px 1px rgba(226, 30, 24, 0.71);
 }
+
+@media (max-width: 640px) {
+    .article1 dov div img{
+        width: 100px;
+    }
+}
+
 .article{
     background: #fff;
     color: #E21E18;
@@ -144,9 +160,8 @@ body{
 .uk-card-body {
   padding: 0;
 }
-.cards{
+.card1s{
     background-color: #239570;
-    padding: 10%;
 }
 .card{
     background-color: #fff;
@@ -161,6 +176,32 @@ body{
     transform: scale(1.1);
     z-index: 100;
 }
+.card1s h2{
+    font-family: Arkhip-Font, serif !important;
+    color: #c02e1d;
+    text-shadow: 1px 1px 1px rgba(192, 46, 29, 0.71);
+    text-transform: uppercase;
+}
+.card1s .uk-button-default{
+    margin: 2px;
+    color: #c02e1d;
+    border: 1px solid #892318;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+.card1s .uk-button-default:hover{
+    margin: 2px;
+    color: #fff;
+    border: 1px solid #8a2418;
+    background-color: #c02e1d;
+    font-weight: 700;
+    transition-duration: 0.8s;
+}
+
 .cards h2{
     font-family: Arkhip-Font, serif !important;
     color: #c02e1d;
@@ -326,7 +367,7 @@ body{
 .frontpage-quote-cnt {
     width: 70%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 1.3em; 
+    border-radius: 1.3em;
 }
 
 .frontpage-quote-cnt h1 {
@@ -355,6 +396,41 @@ body{
     font-size: 1.4em;
 }
 
+@media (max-width : 640px) {
+
+    .frontpage-quote-cnt {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 1.1em;
+    }
+
+    .frontpage-quote-cnt h1 {
+        font-family: Hanken-Light, serif;
+        font-weight: bold;
+    }
+
+    .frontpage-quote-cnt .fp-quote {
+        font-family: Georgia;
+        font-style: italic;
+        font-size: x-large;
+    }
+
+    .frontpage-quote-cnt .fp-quote:before {
+        font: 6em/1.08em 'Georgia', sans-serif;
+        color: #ccc;
+        content: '\201C';
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.6em;
+    }
+
+    .frontpage-quote-cnt author {
+        float: right;
+        font-size: medium;
+    }
+
+}
 
 article div.uk-container.otherpage-text p {
     font-size: 1.2em
@@ -393,3 +469,9 @@ a.card-outer-link:hover {
     }
 }
 */
+.advent-sub:hover{
+    background-color: #239570;
+    color: #fff138;
+}
+/* Cursor */
+.typed-cursor {visibility: hidden}
